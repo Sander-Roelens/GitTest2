@@ -24,5 +24,10 @@ namespace GitTest2
         {
             InitializeComponent();
         }
+        int teller = 0;
+        private void btnteller_Click(object sender, RoutedEventArgs e)
+        {
+            lblteller.Content = teller++;
+        }
     }
 }
