@@ -24,5 +24,10 @@ namespace GitTest2
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            lblHello.Content = "Hello World";
+        }
     }
 }
